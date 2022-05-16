@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26500F3D283235F100374FD9 /* ToolBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500F3C283235F100374FD9 /* ToolBarItem.swift */; };
 		7527FDC9270BEEA800710086 /* TCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7527FDC7270BEEA800710086 /* TCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7527FDE0270C095700710086 /* FGCGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7527FDCD270C095500710086 /* FGCGraph.cpp */; };
 		7527FDE1270C095700710086 /* FGMM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7527FDCE270C095500710086 /* FGMM.cpp */; };
@@ -62,7 +63,6 @@
 		7527FE42270C1A1A00710086 /* ToolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527FE22270C1A1A00710086 /* ToolManager.swift */; };
 		7527FE43270C1A6D00710086 /* TCCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7527FDC5270BEEA700710086 /* TCCore.framework */; };
 		7527FE49270C1A9600710086 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7527FE48270C1A9600710086 /* libstdc++.dylib */; };
-		7527FE4C270C2D0B00710086 /* ToolBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527FE4B270C2D0B00710086 /* ToolBarItem.swift */; };
 		7527FE4F270C2D4500710086 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527FE4D270C2D4500710086 /* CircleView.swift */; };
 		7527FE50270C2D4500710086 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527FE4E270C2D4500710086 /* CanvasView.swift */; };
 		7527FE51270C386600710086 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7527FDF7270C0BCD00710086 /* opencv2.framework */; };
@@ -80,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26500F3C283235F100374FD9 /* ToolBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolBarItem.swift; sourceTree = "<group>"; };
 		7527FDA6270BED5700710086 /* TCMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7527FDAA270BED5700710086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7527FDC5270BEEA700710086 /* TCCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,7 +140,6 @@
 		7527FE21270C1A1A00710086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MaskViewController.xib; sourceTree = "<group>"; };
 		7527FE22270C1A1A00710086 /* ToolManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolManager.swift; sourceTree = "<group>"; };
 		7527FE48270C1A9600710086 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "../../../../usr/lib/libstdc++.dylib"; sourceTree = "<group>"; };
-		7527FE4B270C2D0B00710086 /* ToolBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToolBarItem.swift; path = ../../TinyCrayon/iOS/TCMask/ToolBarItem.swift; sourceTree = "<group>"; };
 		7527FE4D270C2D4500710086 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		7527FE4E270C2D4500710086 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,7 +212,7 @@
 				7527FE06270C1A1400710086 /* TCMaskViewState.swift */,
 				7527FE17270C1A1800710086 /* TCUIView.swift */,
 				7527FE13270C1A1700710086 /* Tool.swift */,
-				7527FE4B270C2D0B00710086 /* ToolBarItem.swift */,
+				26500F3C283235F100374FD9 /* ToolBarItem.swift */,
 				7527FDFF270C1A1300710086 /* ToolLog.swift */,
 				7527FE22270C1A1A00710086 /* ToolManager.swift */,
 				7527FE02270C1A1300710086 /* ToolMenuItem.swift */,
@@ -431,10 +431,10 @@
 				7527FE38270C1A1A00710086 /* HairBrushTool.swift in Sources */,
 				7527FE3B270C1A1A00710086 /* MaskViewWizard.swift in Sources */,
 				7527FE3F270C1A1A00710086 /* UILockableView.swift in Sources */,
-				7527FE4C270C2D0B00710086 /* ToolBarItem.swift in Sources */,
 				7527FE23270C1A1A00710086 /* ToolLog.swift in Sources */,
 				7527FE31270C1A1A00710086 /* QuickSelectTool.swift in Sources */,
 				7527FE28270C1A1A00710086 /* BrushLog.swift in Sources */,
+				26500F3D283235F100374FD9 /* ToolBarItem.swift in Sources */,
 				7527FE4F270C2D4500710086 /* CircleView.swift in Sources */,
 				7527FE40270C1A1A00710086 /* ImageScrollView.swift in Sources */,
 				7527FE30270C1A1A00710086 /* Extensions.swift in Sources */,
@@ -622,7 +622,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZT43YRKG6P;
+				DEVELOPMENT_TEAM = 6Z2D3SX4F2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -658,7 +658,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZT43YRKG6P;
+				DEVELOPMENT_TEAM = 6Z2D3SX4F2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -695,7 +695,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZT43YRKG6P;
+				DEVELOPMENT_TEAM = 6Z2D3SX4F2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -738,7 +738,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZT43YRKG6P;
+				DEVELOPMENT_TEAM = 6Z2D3SX4F2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
